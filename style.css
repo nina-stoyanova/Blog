@@ -2,11 +2,26 @@
     border: 1px solid red;
     
 }
-h1{
-    text-align: center;     
-                                                                                                                  ;
+.div-h1 {
+    display: flex;
+    justify-content: center;
 }
 body {
     height: 100;
     margin: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-first-h2 {
+    display: flex;
+    justify-content: center;
+}
+.div-imgp {
+    display: flex;
+    justify-content: space-evenly;
+}
+.first-photo {
+    order: 3;
 }
